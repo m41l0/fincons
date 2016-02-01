@@ -33,68 +33,97 @@ ul {
     flex-direction: column;
     /*min-height: 100vh;*/
     min-width: 910px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .header-main .inner {
+    min-height: 200px;
     background: lightgoldenrodyellow;
 }
 
 .header-main, .section-main, .footer-main {
     position: relative;
     min-width: 910px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
 .section-main {
     display: flex;
     /*flex-grow: 1;*/
-    min-height: 450px;
 }
 
 .section-main .inner {
     display: flex;
     flex-direction: row;
+    min-height: 700px;
 }
 
 .inner {
     position: relative;
     margin: 0 auto;
-    min-height: 150px;
+    /*min-height: 150px;*/
     min-width: 910px;
-    width: 910px;
+    max-width: 910px;
     background: lightgray;
 }
 
 .content {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px 30px;
-    width: 80%;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    /*padding: 20px 30px;*/
+    min-width: 680px;
+    max-width: 680px;
     /*flex-grow: 8;*/
     /*border: 1px solid yellow;*/
     background: lightcyan;
-    flex-wrap: wrap;
 }
 
-.content div {
+.content .row1 {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-around;
+    min-height: 390px;
+    max-height: 390px;
     border: 1px solid lightgray;
-    border-radius: 10px;
-    max-height: 250px;
+}
+
+.content .row2 {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    min-height: 290px;
+    max-height: 290px;
+    padding: 5px 150px;
+    border: 1px solid lightgray;
+}
+
+.columns {
     min-width: 30%;
+    border: 1px solid red;
+
 }
 
 .right-menu {
-    min-width: 20%;
-    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    /*flex-grow: 1;*/
+    justify-content: space-around;
+    min-width: 230px;
+    max-width: 230px;
     /*flex-grow: 2;*/
-    /*border: 1px solid saddlebrown;*/
     background: lightblue;
+}
+
+.right-menu div {
+    min-height: 150px;
+    min-width: 50px;
+    border: 1px solid crimson;
 }
 
 .footer-main .inner {
     min-height: 200px;
+    max-height: 200px;
     line-height: 200px;
     background: lightgreen;
 }
