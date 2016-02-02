@@ -38,7 +38,6 @@ p {
     position: relative;
     min-height: 200px;
     max-height: 200px;
-    /*background: lightgoldenrodyellow;*/
 }
 
 .header-main .inner div {
@@ -80,7 +79,6 @@ p {
     font:400 12px 'Verdana', sans-serif;
     /*text-transform:uppercase;*/
     text-align: center;
-    /*vertical-align: middle;*/
 }
 /*-==MENU END==-*/
 
@@ -119,7 +117,7 @@ p {
     max-width: 680px;
     /*flex-grow: 8;*/
     /*border: 1px solid yellow;*/
-    background: lightcyan;
+    background: white;
 }
 
 .content .row1 {
@@ -129,23 +127,45 @@ p {
     padding: 20px;
     min-height: 390px;
     max-height: 390px;
-    border: 1px solid lightgray;
+    /*border: 1px solid lightgray;*/
 }
 
 .content .row2 {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: wrap;*/
+    /*flex-grow: 1;*/
+    min-height: 290px;
+    /*max-height: 290px;*/
+    padding: 0 55px;
+    border: 1px solid lightgray;
+}
+
+.content .row2 ol {
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
-    min-height: 290px;
-    max-height: 290px;
-    padding: 5px 150px;
+    flex-wrap: wrap;
+    /*margin: 0 50px;*/
+    border: 1px solid lightgray;
+    list-style: none;
+    padding: 0;
+ }
+
+.content .row2 ol>li {
+    width: 250px;
+    margin-bottom: 10px;
     border: 1px solid lightgray;
 }
 
 .columns {
     min-width: 200px;
-    border: 1px solid red;
+    border: 1px solid #dcdbdb;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);;
+}
 
+.content .row2 div {
+    width: 250px;
 }
 
 .right-menu {
@@ -155,7 +175,6 @@ p {
     justify-content: space-around;
     min-width: 230px;
     max-width: 230px;
-    /*flex-grow: 2;*/
     background: lightblue;
 }
 
