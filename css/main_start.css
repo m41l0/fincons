@@ -10,12 +10,12 @@ p {
     margin: 0;
 }
 
-/*#logo {*/
-/*display: block;*/
-/*width: 150px;*/
-/*height: 150px;*/
-/*border: 1px solid pink;*/
-/*}*/
+/*#logo {
+display: block;
+width: 150px;
+height: 150px;
+border: 1px solid pink;
+}*/
 
 .gradient {
     background: #2d6c8a; /* Old browsers */
@@ -76,7 +76,7 @@ p {
     color:#fff;
     display:block;
     line-height: 99px !important;
-    font:400 12px 'Verdana', sans-serif;
+    font: 400 12px 'Verdana', sans-serif;
     /*text-transform:uppercase;*/
     text-align: center;
 }
@@ -115,12 +115,10 @@ p {
     /*padding: 20px 30px;*/
     min-width: 680px;
     max-width: 680px;
-    /*flex-grow: 8;*/
-    /*border: 1px solid yellow;*/
     background: white;
 }
 
-.content .row1 {
+.content .services {
     display: flex;
     flex-grow: 2;
     justify-content: space-between;
@@ -130,42 +128,42 @@ p {
     /*border: 1px solid lightgray;*/
 }
 
-.content .row2 {
+.columns {
+    min-width: 200px;
+    max-width: 200px;
+    padding-right: 20px;
+    border: 1px solid #dcdbdb;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    font: 400 12px 'Myriad Pro', sans-serif;
+}
+
+.content .choose-us {
     /*display: flex;*/
     /*justify-content: space-between;*/
     /*flex-wrap: wrap;*/
     /*flex-grow: 1;*/
     min-height: 290px;
-    /*max-height: 290px;*/
     padding: 0 55px;
-    border: 1px solid lightgray;
+    /*border: 1px solid lightgray;*/
+    font: 600 18px 'Verdana', sans-serif;
 }
 
-.content .row2 ol {
+.content .choose-us ol {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     /*margin: 0 50px;*/
-    border: 1px solid lightgray;
     list-style: none;
     padding: 0;
- }
+    font: 400 14px 'Myriad Pro', sans-serif;
+    /*border: 1px solid lightgray;*/
+}
 
-.content .row2 ol>li {
+.content .choose-us ol>li {
     width: 250px;
     margin-bottom: 10px;
-    border: 1px solid lightgray;
-}
-
-.columns {
-    min-width: 200px;
-    border: 1px solid #dcdbdb;
-    border-radius: 7px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);;
-}
-
-.content .row2 div {
-    width: 250px;
+    /*border: 1px solid lightgray;*/
 }
 
 .right-menu {
@@ -189,4 +187,14 @@ p {
     max-height: 200px;
     line-height: 200px;
     background: lightgreen;
+}
+
+.footer-main .inner div {
+    position: absolute;
+    top: 0;
+    min-height: 20px;
+    max-height: 20px;
+    width: 100%;
+    background: #1b5f84;
+    border-bottom: 1px solid #4d7d8f;
 }
