@@ -40,7 +40,7 @@ border: 1px solid pink;
     flex-direction: column;
     justify-content: space-between;
     min-height: 200px;
-    max-height: 200px;
+    /*max-height: 200px;*/
 }
 
 .header-main .inner div {
@@ -101,10 +101,11 @@ border-right: none;
 .content {
     display: flex;
     flex-direction: column;
+    flex-grow: 1; /*Добавил по рекомендациям преподователя*/
     /*justify-content: space-between;*/
     /*padding: 20px 30px;*/
     min-width: 680px;
-    max-width: 680px;
+    /*max-width: 680px;*/ /*Убрал по рекомендациям преподователя*/
     background: white;
 }
 
@@ -159,10 +160,10 @@ border-right: none;
 .right-menu {
     display: flex;
     flex-direction: column;
-    /*flex-grow: 1;*/
+    flex-grow: 1; /*Добавил по рекомендациям преподователя*/
     justify-content: space-around;
     min-width: 230px;
-    max-width: 230px;
+    /*max-width: 230px;*/ /*Убрал по рекомендациям преподователя*/
     background: lightblue;
 }
 
