@@ -1,0 +1,31 @@
+.sprite-top-markers {
+    background: url(../img/top_markers.png) no-repeat;
+    display: inline-block;
+    margin-left: -15px;
+    margin-right: 8px;
+}
+.sprite-home {
+    width: 7px;
+    height: 10px;
+    background-position: -5px -5px;
+}
+.sprite-services {
+    width: 7px;
+    height: 10px;
+    background-position: -22px -5px;
+}
+.sprite-solutions {
+    width: 7px;
+    height: 10px;
+    background-position: -39px -5px;
+}
+.sprite-support {
+    width: 7px;
+    height: 10px;
+    background-position: -56px -5px;
+}
+.sprite-contact_us {
+    width: 7px;
+    height: 10px;
+    background-position: -73px -5px;
+}
