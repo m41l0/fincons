@@ -71,7 +71,7 @@ border: 1px solid pink;
 }
 
 .nav__item.nav__item--no-border-right {
-    border-right:;: none;
+    border-right: none;
 }
 
 /*-==MENU END==-*/
@@ -113,17 +113,45 @@ border: 1px solid pink;
 }
 
 .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-width: 200px;
     max-width: 200px;
-    padding-right: 20px;
+    /*padding-right: 20px;*/
     border: 1px solid #dcdbdb;
     border-radius: 7px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     font: 400 12px 'Myriad Pro', sans-serif;
 }
 
+.column__list {
+
+}
+
 .column__item {
     color: darkcyan;
+}
+
+.column__footer {
+    /*display: flex;*/
+    min-height: 80px;
+    border-top: 1px solid #dcdbdb;
+}
+
+.column__readmore {
+    display: block;
+    width: 100%;
+    font: 400 16px 'Myriad Pro Regular', sans-serif;
+    line-height: 80px;
+    text-align: center;
+    padding-left: 30px;
+    text-decoration: none;
+    color: #7d7c7c;
+}
+
+.column__btn {
+
 }
 
 .advantages {

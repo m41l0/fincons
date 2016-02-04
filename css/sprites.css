@@ -29,3 +29,30 @@
     height: 10px;
     background-position: -73px -5px;
 }
+
+
+
+.sprite-btn {
+    background: url(../img/btn.png) no-repeat;
+    display: block;
+    float: right;
+    margin: 19px 19px;
+}
+
+.sprite-btn00 {
+    width: 41px;
+    height: 41px;
+    background-position: -5px -5px;
+}
+
+.sprite-btn01 {
+    width: 41px;
+    height: 41px;
+    background-position: -56px -5px;
+}
+
+.sprite-btn02 {
+    width: 41px;
+    height: 41px;
+    background-position: -107px -5px;
+}
