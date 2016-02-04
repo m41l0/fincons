@@ -171,7 +171,6 @@ border-right: none;
 }
 
 .footer-main .inner {
-    /*display: flex;*/
     flex-direction: column;
     min-height: 200px;
     max-height: 200px;
