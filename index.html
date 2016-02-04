@@ -5,22 +5,23 @@
     <title>Главная страница</title>
     <link rel="stylesheet" href="css/normalize.css">
     <!--<link rel="stylesheet" href="css/font-awesome.css">-->
-    <link rel="stylesheet" href="css/main_start.css">
+    <!--<link rel="stylesheet" href="css/main_start.css">-->
+    <link rel="stylesheet" href="css/main_bem.css">
 </head>
 <body class="gradient">
     <div class="main-wrapper">
         <header class="header-main">
             <div class="inner">
-                <div class="logo-top">
+                <div class="header-main__logo">
                     <p>FINANCIAL CONSULTANT</p>
                     <p>BUSINESS COMPANY</p>
                 </div>
-                <nav class="top-menu">
-                    <a href="#Home">Home</a>
-                    <a href="#Services">Services</a>
-                    <a href="#Solutions">Solutions</a>
-                    <a href="#Support">Support</a>
-                    <a href="#Contact Us">Contact Us</a>
+                <nav class="nav">
+                    <a class="nav__item" href="#Home">Home</a>
+                    <a class="nav__item" href="#Services">Services</a>
+                    <a class="nav__item" href="#Solutions">Solutions</a>
+                    <a class="nav__item" href="#Support">Support</a>
+                    <a class="nav__item nav__item--no-border-right" href="#Contact Us">Contact Us</a>
                 </nav>
             </div>
         </header>
@@ -28,48 +29,48 @@
             <div class="inner">
                 <div class="content">
                     <div class="services">
-                        <div class="columns">
+                        <div class="column">
                             <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
                             </ul>
                         </div>
-                        <div class="columns">
+                        <div class="column">
                             <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
                             </ul>
                         </div>
-                        <div class="columns">
+                        <div class="column">
                             <ul>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
-                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
+                                <li class="column__item">Lorem ipsum dolor sit amet.</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="choose-us">
-                        <h4>Why choose us...</h4>
-                        <ol>
-                            <li>
+                    <div class="advantages">
+                        <h4 class="advantages__title">Why choose us...</h4>
+                        <ol class="advantages__list">
+                            <li class="advantages__list__item">
                                 <p><b>1. Lorem ipsum dolor sit amet, consectetur adipisicing elit:</b>
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                    Alias eos, est obcaecati possimus quibusdam repellat!
                                 </p>
                             </li>
-                            <li>
+                            <li  class="advantages__list__item">
                                 <p><b>2. Lorem ipsum dolor sit amet, consectetur adipisicing elit:</b>
                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                    Alias eos, est obcaecati possimus quibusdam repellat!
@@ -78,15 +79,15 @@
                         </ol>
                     </div>
                 </div>
-                <aside class="right-menu">
-                    <div></div>
-                    <div></div>
+                <aside class="side-menu">
+                    <div class="side-menu__customer-review"></div>
+                    <div class="side-menu__customer-review"></div>
                 </aside>
             </div>
         </section>
         <footer class="footer-main">
             <div class="inner">
-                <div></div>
+                <div class="footer-main__divide-line"></div>
             </div>
         </footer>
     </div>

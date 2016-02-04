@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+p {
+    margin: 0;
+}
+
+/*#logo {
+display: block;
+width: 150px;
+height: 150px;
+border: 1px solid pink;
+}*/
+
+.gradient {
+    background: #2d6c8a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #2d6c8a 40%, #528598 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #2d6c8a 40%,#528598 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #2d6c8a 40%,#528598 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d6c8a', endColorstr='#528598',GradientType=0 ); /* IE6-9 */
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 910px;
+}
+
+.inner {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    min-width: 910px;
+    max-width: 910px;
+}
+
+/*-==MENU BEGIN==-*/
+.header-main .inner {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+}
+
+.header-main__logo {
+    margin-top: 30px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height:100px;
+    background:#8abbcb;
+}
+
+.nav__item {
+width: 20%;
+font: 400 12px 'Verdana', sans-serif;
+line-height: 100px;
+color:#fff;
+text-decoration:none;
+text-align: center;
+border-right: 1px solid #a8cbd6;
+border-bottom: 1px solid #b3d3dd;
+/*text-transform:uppercase;*/
+}
+
+.nav__item.nav__item--no-border-right {
+border-right: none;
+}
+
+/*-==MENU END==-*/
+
+.header-main, .section-main, .footer-main {
+    position: relative;
+    /*min-width: 910px;*/
+    /*border: 1px solid blue;*/
+}
+
+.section-main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.section-main .inner {
+    flex-direction: row;
+    min-height: 700px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /*Добавил по рекомендациям преподователя*/
+    /*justify-content: space-between;*/
+    /*padding: 20px 30px;*/
+    min-width: 680px;
+    background: white;
+}
+
+.services {
+    display: flex;
+    flex-grow: 2;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 390px;
+    /*max-height: 390px;*/
+    /*border: 1px solid lightgray;*/
+}
+
+.column {
+    min-width: 200px;
+    max-width: 200px;
+    padding-right: 20px;
+    border: 1px solid #dcdbdb;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    font: 400 12px 'Myriad Pro', sans-serif;
+}
+
+.column__item {
+    color: darkcyan;
+}
+
+.advantages {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: wrap;*/
+    /*flex-grow: 1;*/
+    min-height: 290px;
+    padding: 0 55px;
+    /*border: 1px solid lightgray;*/
+    font: 600 18px 'Verdana', sans-serif;
+}
+
+.advantages__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*margin: 0 50px;*/
+    list-style: none;
+    padding: 0;
+    font: 400 14px 'Myriad Pro', sans-serif;
+    /*border: 1px solid lightgray;*/
+}
+
+.advantages__list__item {
+    width: 250px;
+    margin-bottom: 10px;
+    /*border: 1px solid lightgray;*/
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /*Добавил по рекомендациям преподователя*/
+    justify-content: space-around;
+    min-width: 230px;
+    /*max-width: 230px;*/ /*Убрал по рекомендациям преподователя*/
+    background: lightblue;
+}
+
+.side-menu__customer-review {
+    min-height: 150px;
+    min-width: 50px;
+    border: 1px solid crimson;
+}
+
+.footer-main .inner {
+    /*display: flex;*/
+    flex-direction: column;
+    min-height: 200px;
+    max-height: 200px;
+    line-height: 200px;
+    background: lightgreen;
+}
+
+.footer-main__divide-line {
+    min-height: 20px;
+    max-height: 20px;
+    width: 100%;
+    background: #1b5f84;
+    border-bottom: 1px solid #4d7d8f;
+}
