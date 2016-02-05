@@ -129,21 +129,21 @@ border: 1px solid pink;
     text-align: center;
 }
 
-.column__header {
+.column__title {
     display: block;
     margin-top: 10px;
     font: 400 18px 'Verdana', sans-serif;
 }
 
-.column__header--orange {
+.column__title--orange {
     color: #df6509;
 }
 
-.column__header--blue {
+.column__title--blue {
     color: #019cd2;
 }
 
-.column__header--green {
+.column__title--green {
     color: #56ae00;
 }
 
@@ -166,17 +166,17 @@ border: 1px solid pink;
 }
 
 .column__footer {
-min-height: 80px;
-border-top: 1px solid #dcdbdb;
+    min-height: 80px;
+    border-top: 1px solid #dcdbdb;
 }
 
 .column__readmore {
-display: block;
-font: 400 16px 'Myriad Pro Regular', sans-serif;
-line-height: 80px;
-text-align: end;
-text-decoration: none;
-color: #7d7c7c;
+    display: block;
+    font: 400 16px 'Myriad Pro Regular', sans-serif;
+    line-height: 80px;
+    text-align: end;
+    text-decoration: none;
+    color: #7d7c7c;
 }
 
 .column__btn {
@@ -184,13 +184,17 @@ color: #7d7c7c;
 }
 
 .advantages {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*flex-wrap: wrap;*/
-    /*flex-grow: 1;*/
+    /*display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-grow: 1;*/
     min-height: 290px;
     padding: 0 55px;
-    /*border: 1px solid lightgray;*/
+    color: #747272;
+}
+
+.advantages__title {
     font: 600 18px 'Verdana', sans-serif;
 }
 
@@ -198,17 +202,31 @@ color: #7d7c7c;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /*margin: 0 50px;*/
-    list-style: none;
     padding: 0;
-    font: 400 14px 'Myriad Pro', sans-serif;
-    /*border: 1px solid lightgray;*/
+    margin: 0;
 }
 
 .advantages__list__item {
-    width: 250px;
-    margin-bottom: 10px;
-    /*border: 1px solid lightgray;*/
+    width: 245px;
+    margin-bottom: 15px;
+    list-style: decimal inside;
+    font: 600 14px 'Myriad Pro', sans-serif;
+    text-align: justify;
+}
+
+.advantages__list__item--normal-font {
+    font: 400 14px 'Myriad Pro', sans-serif;
+}
+
+.advantages__footer {
+    display: flex;
+    justify-content: space-between;
+    font: 400 14px 'Myriad Pro', sans-serif;
+    color: #df6509;
+}
+
+.advantages__footer__item {
+    width: 245px;
 }
 
 .side-menu {
