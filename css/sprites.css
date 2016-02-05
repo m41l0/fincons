@@ -34,7 +34,6 @@
 
 .sprite-btn {
     background: url(../img/btn.png) no-repeat;
-    display: block;
     float: right;
     margin: 19px 19px;
 }
