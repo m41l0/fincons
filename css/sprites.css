@@ -1,30 +1,30 @@
-.sprite-top-markers {
+.sprite-top-marker {
     background: url(../img/top_markers.png) no-repeat;
     display: inline-block;
     margin-left: -15px;
     margin-right: 8px;
 }
-.sprite-home {
+.sprite-top-marker-home {
     width: 7px;
     height: 10px;
     background-position: -5px -5px;
 }
-.sprite-services {
+.sprite-top-marker-services {
     width: 7px;
     height: 10px;
     background-position: -22px -5px;
 }
-.sprite-solutions {
+.sprite-top-marker-solutions {
     width: 7px;
     height: 10px;
     background-position: -39px -5px;
 }
-.sprite-support {
+.sprite-top-marker-support {
     width: 7px;
     height: 10px;
     background-position: -56px -5px;
 }
-.sprite-contact_us {
+.sprite-top-marker-contact_us {
     width: 7px;
     height: 10px;
     background-position: -73px -5px;
@@ -71,4 +71,29 @@
     min-width: 16px;
     height: 16px;
     background-position: -31px -5px;
+}
+
+
+.sprite-bottom-markers {
+    background: url(../img/bottom_markers.png) no-repeat;
+    /*display: block;*/
+    float: left;
+}
+
+.sprite-bottom-markers-purple {
+    width: 9px;
+    height: 9px;
+    background-position: -5px -5px;
+}
+
+.sprite-bottom-markers-orange {
+    width: 9px;
+    height: 9px;
+    background-position: -24px -5px;
+}
+
+.sprite-bottom-markers-green {
+    width: 9px;
+    height: 9px;
+    background-position: -43px -5px;
 }

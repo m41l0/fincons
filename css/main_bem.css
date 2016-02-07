@@ -195,6 +195,7 @@ border: 1px solid pink;
 }
 
 .advantages__title {
+    margin: 20px 0;
     font: 600 18px 'Verdana', sans-serif;
 }
 
@@ -208,7 +209,7 @@ border: 1px solid pink;
 
 .advantages__list__item {
     width: 250px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     list-style: decimal inside;
     font: 600 14px 'Myriad Pro', sans-serif;
     text-align: justify;
@@ -253,16 +254,66 @@ border: 1px solid pink;
 
 .footer-main .inner {
     flex-direction: column;
-    min-height: 200px;
-    max-height: 200px;
-    line-height: 200px;
-    background: lightgreen;
+    min-height: 195px;
+    max-height: 195px;
+    /*background: lightgreen;*/
 }
 
 .footer-main__divide-line {
     min-height: 20px;
     max-height: 20px;
-    width: 100%;
+    /*width: 100%;*/
     background: #1b5f84;
     border-bottom: 1px solid #4d7d8f;
+}
+
+.footer-main__content {
+    display: flex;
+    justify-content: space-between;
+    min-height: 175px;
+    /*max-height: 175px;*/
+    /*margin: 0;*/
+    background: #68aac1;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.footer-main__remark {
+    display: flex;
+    min-width: 580px;
+    margin: 0 50px 25px 50px;
+}
+
+.footer-main__remark-item {
+    /*flex-grow: 1;*/
+    margin-right: 50px;
+    max-width: 200px;
+    font: 400 12px 'Verdana', sans-serif;
+}
+
+.footer-main__remark-item:last-child {
+    margin-right: 0;
+}
+
+.footer-main__remark-title {
+    margin: 0 0 15px 0;
+    font: normal 18px 'Verdana', sans-serif;
+}
+
+.footer-main__remark-marker {
+    display: inline-block;
+    margin-top: 20px;
+    font: normal 12px 'Verdana', sans-serif;
+    line-height: 12px;
+}
+
+.footer-main__remark-link {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #156684;
+}
+
+.footer-main__newsletter {
+    min-width: 230px;
+    border: 1px solid red;
 }
