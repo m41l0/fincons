@@ -38,20 +38,37 @@
     margin: 19px 19px;
 }
 
-.sprite-btn00 {
+.sprite-btn-orange {
     width: 41px;
     height: 41px;
     background-position: -5px -5px;
 }
 
-.sprite-btn01 {
+.sprite-btn-blue {
     width: 41px;
     height: 41px;
     background-position: -56px -5px;
 }
 
-.sprite-btn02 {
+.sprite-btn-green {
     width: 41px;
     height: 41px;
     background-position: -107px -5px;
+}
+
+
+.sprite-star {
+    background: url(../img/star.png) no-repeat;
+}
+
+.sprite-star-orange {
+    min-width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-star-green {
+    min-width: 16px;
+    height: 16px;
+    background-position: -31px -5px;
 }

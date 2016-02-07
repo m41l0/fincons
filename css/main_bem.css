@@ -207,7 +207,7 @@ border: 1px solid pink;
 }
 
 .advantages__list__item {
-    width: 245px;
+    width: 250px;
     margin-bottom: 15px;
     list-style: decimal inside;
     font: 600 14px 'Myriad Pro', sans-serif;
@@ -225,8 +225,14 @@ border: 1px solid pink;
     color: #df6509;
 }
 
-.advantages__footer__item {
-    width: 245px;
+.advantages__footer-item {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.advantages__footer-text {
+    margin-left: 15px;
 }
 
 .side-menu {
