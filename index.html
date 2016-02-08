@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/sprites.css">
 </head>
 <body class="gradient">
+<div class="frame gradient">
     <div class="main-wrapper">
         <header class="header-main">
             <div class="inner">
@@ -136,7 +137,7 @@
                             <h4 class="footer-main__remark-title">Management</h4>
                             <p>
                                 <b>Duis quis quam nulla.
-                                Nulla facilisi.</b> Quisque id
+                                    Nulla facilisi.</b> Quisque id
                                 dolor risus. Phasellus nec
                                 elit orci. Maecenas quis
                                 nisi quam.
@@ -150,7 +151,7 @@
                             <h4 class="footer-main__remark-title">Marketing</h4>
                             <p>
                                 <b>Vivamus eget orci
-                                metus.</b> at lobortis ligula.
+                                    metus.</b> at lobortis ligula.
                                 Aliquam egestas
                                 porttitor auctor. Donec
                                 felis metus, laoreet.
@@ -175,16 +176,20 @@
                         </div>
                     </div>
                     <div class="footer-main__newsletter">
-                        <h3>Newsletter Signup</h3>
-                        <form action="newsletter.php" name="newsletter" method="get">
-                            <label for="newsletter">Please enter your email here:</label>
-                            <input type="email" name="newsletter">
+                        <h4 class="footer-main__newsletter-title">Newsletter Signup</h4>
+                        <form action="#newsletter.php" name="newsletter" id="newsletter" method="get">
+                            <label class="footer-main__newsletter-email-label" for="newsletter">Please enter your email here:</label>
+                            <input class="footer-main__newsletter-email-input" type="email" name="newsletter">
                         </form>
-                        <button form="newsletter" type="submit" class="">Subscribe</button>
+                        <button class="footer-main__newsletter-btn" form="newsletter" type="submit">Subscribe</button>
                     </div>
                 </div>
+                <span class="footer-main__inner-copy">Maks Loginov &copy; 2016
+                    <span class="footer-main__inner-copy--mod">Privacy Policy</span>
+                </span>
             </div>
         </footer>
     </div>
+</div>
 </body>
 </html>

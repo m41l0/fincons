@@ -25,11 +25,18 @@ border: 1px solid pink;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2d6c8a', endColorstr='#528598',GradientType=0 ); /* IE6-9 */
 }
 
+.frame {
+    min-width: 1200px;
+    max-width: 1200px;
+    min-height: 1150px;
+    margin: 0 auto;
+}
+
 .main-wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     min-width: 910px;
+    min-height: 100vh;
 }
 
 .inner {
@@ -78,13 +85,12 @@ border: 1px solid pink;
 
 .header-main, .section-main, .footer-main {
     position: relative;
-    /*min-width: 910px;*/
-    /*border: 1px solid blue;*/
+    min-width: 910px;
 }
 
 .section-main {
     display: flex;
-    flex-grow: 1;
+    flex-grow: 5;
 }
 
 .section-main .inner {
@@ -95,9 +101,7 @@ border: 1px solid pink;
 .content {
     display: flex;
     flex-direction: column;
-    flex-grow: 1; /*Добавил по рекомендациям преподователя*/
-    /*justify-content: space-between;*/
-    /*padding: 20px 30px;*/
+    flex-grow: 1;
     min-width: 680px;
     background: white;
 }
@@ -252,11 +256,17 @@ border: 1px solid pink;
     border: 1px solid crimson;
 }
 
+.footer-main {
+    display: flex;
+    flex-grow: 1;
+}
+
 .footer-main .inner {
     flex-direction: column;
     min-height: 195px;
-    max-height: 195px;
-    /*background: lightgreen;*/
+    /*max-height: 195px;*/
+    color: #fff;
+    font: 400 10px 'Verdana', sans-serif;
 }
 
 .footer-main__divide-line {
@@ -270,12 +280,13 @@ border: 1px solid pink;
 .footer-main__content {
     display: flex;
     justify-content: space-between;
-    min-height: 175px;
+    height: 175px;
+    flex-grow: 1;
     /*max-height: 175px;*/
-    /*margin: 0;*/
     background: #68aac1;
     padding-top: 10px;
-    color: #fff;
+    /*color: #fff;*/
+    box-shadow: 0 7px 10px -3px rgba(0,0,0,0.2);
 }
 
 .footer-main__remark {
@@ -285,7 +296,6 @@ border: 1px solid pink;
 }
 
 .footer-main__remark-item {
-    /*flex-grow: 1;*/
     margin-right: 50px;
     max-width: 200px;
     font: 400 12px 'Verdana', sans-serif;
@@ -315,5 +325,48 @@ border: 1px solid pink;
 
 .footer-main__newsletter {
     min-width: 230px;
-    border: 1px solid red;
+    font: normal 11px 'Verdana', sans-serif;
+    padding: 0 0 0 30px;
+}
+
+.footer-main__newsletter-title {
+    margin: 0 0 15px 0;
+    font: normal 18px 'Verdana', sans-serif;
+    color: #156684;
+}
+
+.footer-main__newsletter-email-label {
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.footer-main__newsletter-email-input {
+    width: 170px;
+}
+
+.footer-main__newsletter-btn {
+    width: 100px;
+    height: 30px;
+    margin: 5px 0 0 0;
+    background: #5692ac;
+    box-shadow: 0 -2px 2px -1px #275f78 inset, 0 2px 5px -2px #000, 0 -15px 4px 0 #2c667c inset, 0 5px 10px 0 #61a6c3 inset;
+    border: 1px solid #1f607c;
+    border-radius: 5px;
+    font: normal 12px 'Verdana', sans-serif;
+    color: #ffffff;
+}
+
+.footer-main__newsletter-btn:active {
+    margin: 8px 0 0 2px;
+    box-shadow: 0 -2px 2px -1px #275f78 inset, 0 -15px 4px 0 #2c667c inset, 0 5px 10px 0 #61a6c3 inset;
+}
+
+.footer-main__inner-copy {
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.footer-main__inner-copy--mod {
+    margin-left: 15px;
+    color: #8fd5fd;
 }
