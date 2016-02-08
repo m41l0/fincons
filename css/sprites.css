@@ -30,8 +30,6 @@
     background-position: -73px -5px;
 }
 
-
-
 .sprite-btn {
     background: url(../img/btn.png) no-repeat;
     float: right;
@@ -56,7 +54,6 @@
     background-position: -107px -5px;
 }
 
-
 .sprite-star {
     background: url(../img/star.png) no-repeat;
 }
@@ -72,7 +69,6 @@
     height: 16px;
     background-position: -31px -5px;
 }
-
 
 .sprite-bottom-markers {
     background: url(../img/bottom_markers.png) no-repeat;

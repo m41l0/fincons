@@ -10,15 +10,20 @@ p {
     margin: 0;
 }
 
-/*#logo {
-display: block;
-width: 150px;
-height: 150px;
-border: 1px solid pink;
-}*/
+.header-main__logo {
+    font: 400 14px 'Verdana', sans-serif;
+    color: #8fc5dc;
+    text-decoration: none;
+}
 
-.gradient {
-    background: #2d6c8a; /* Old browsers */
+.header-main__logo-gradient {
+    font: 400 24px 'Verdana', sans-serif;
+    background: linear-gradient(#fffefe, #9fddf8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.bg-gradient {
     background: -moz-linear-gradient(top,  #2d6c8a 40%, #528598 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  #2d6c8a 40%,#528598 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  #2d6c8a 40%,#528598 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -74,7 +79,6 @@ border: 1px solid pink;
     text-align: center;
     border-right: 1px solid #a8cbd6;
     border-bottom: 1px solid #b3d3dd;
-    /*text-transform:uppercase;*/
 }
 
 .nav__item.nav__item--no-border-right {
@@ -112,8 +116,6 @@ border: 1px solid pink;
     justify-content: space-between;
     padding: 15px 20px 5px;
     min-height: 390px;
-    /*max-height: 390px;*/
-    /*border: 1px solid lightgray;*/
 }
 
 .column {
@@ -183,10 +185,6 @@ border: 1px solid pink;
     color: #7d7c7c;
 }
 
-.column__btn {
-
-}
-
 .advantages {
     /*display: flex;
     flex-direction: column;
@@ -243,14 +241,14 @@ border: 1px solid pink;
 .side-menu {
     display: flex;
     flex-direction: column;
-    flex-grow: 1; /*Добавил по рекомендациям преподователя*/
+    flex-grow: 1;
     justify-content: flex-start;
     align-items: center;
     min-width: 230px;
     font: 400 12px 'Verdana', sans-serif;
-    /*max-width: 230px;*/ /*Убрал по рекомендациям преподователя*/
-    background: #b6dfee;
+    background: linear-gradient(to right, #b6dfee, #96bcca);
     color: #ffffff;
+    border-left: 1px solid #77adbf;
 }
 
 .side-menu-title {
