@@ -244,16 +244,49 @@ border: 1px solid pink;
     display: flex;
     flex-direction: column;
     flex-grow: 1; /*Добавил по рекомендациям преподователя*/
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
     min-width: 230px;
+    font: 400 12px 'Verdana', sans-serif;
     /*max-width: 230px;*/ /*Убрал по рекомендациям преподователя*/
-    background: lightblue;
+    background: #b6dfee;
+    color: #ffffff;
+}
+
+.side-menu-title {
+    margin: 26px 0 20px 0;
+    font: 400 18px 'Verdana', sans-serif;
 }
 
 .side-menu__customer-review {
-    min-height: 150px;
-    min-width: 50px;
-    border: 1px solid crimson;
+    width: 100%;
+}
+
+.side-menu__customer-review-wrapper {
+    width: 120px;
+    height: 120px;
+    border: 7px solid #e6f4fd;
+    border-radius: 5px;
+    box-sizing: content-box;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin: 0 auto;
+}
+
+.side-menu__customer-review-photo {
+    display: block;
+    border: 1px solid #dcdbdb;
+}
+
+.side-menu__customer-review-name {
+    display: inline-block;
+    margin-top: 5px;
+    width: inherit;
+    text-align: center;
+}
+
+.side-menu__customer-review-comment {
+    width: 80%;
+    margin: 10px auto 60px;
 }
 
 .footer-main {
