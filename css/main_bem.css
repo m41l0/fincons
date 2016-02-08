@@ -351,6 +351,7 @@ border: 1px solid pink;
 }
 
 .footer-main__remark-link {
+    display: block;
     margin-left: 15px;
     text-decoration: none;
     color: #156684;
@@ -378,7 +379,7 @@ border: 1px solid pink;
 }
 
 .footer-main__newsletter-btn {
-    width: 100px;
+    min-width: 100px;
     height: 30px;
     margin: 5px 0 0 0;
     background: #5692ac;
